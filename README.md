@@ -15,4 +15,4 @@ Papel de parede com parallax para ser usado no app lively:
 Após abrir o app e criar o wallpaper, customize o mesmo com o botão direito e insira o nome da sua cidade ou bairro se a cidade for muito grande, em seguida selecione a língua,
 esses passos são necessários para o API de temperatura funcionar. Você também pode mudar a Imagem do plano de fundo no mesmo menu de customização.
 
-NOTA: Escreva o nome da sua cidade ou bairr somente com letras MINÚSCULAS.
+NOTA: Escreva o nome da sua cidade ou bairro somente com letras MINÚSCULAS.
