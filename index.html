@@ -1,0 +1,52 @@
+<!-- font-family: 'Libre Baskerville', serif;
+font-family: 'Moirai One', system-ui; -->
+<!-- https://cdnb.artstation.com/p/assets/images/images/040/560/235/large/yh-wu-01602.jpg?1629220103 -->
+<!-- ./wallpapers/mountain-surrounded-with-fog-1772973.jpg -->
+<head>
+  <meta charset="UTF-8">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Moirai+One&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css" media="all">
+<script src="js.js"></script>
+</head>
+<body onLoad="initClock()">
+<main>
+<!-- <input type="text" id="myInput" / -->
+  <background>
+    <img class="bgimg" src=".\wallpapers\conifer-dawn-daylight-evergreen-167698.jpg" alt="">
+    <fundo class="parallax">
+      <objs id="timedate", class="rotate-layer" >
+        <shadow></shadow>
+        <date>
+          <text-date id="wd">SUNDAY</text-date>
+           </date>
+       <clock>
+         <hour id="h">00</hour>:
+         <minu id="m">00</minu>
+         </clock>
+       <dayweather>
+         <div class='day'>
+         <calendar>
+           <months id="mon">JAN</months>
+           <day id="d">01</day>
+            </calendar>
+         </div>
+         <div class='weather'>
+         <actual id="actual">11</actual>
+           <container id='pointer'>
+             <bolinha></bolinha>
+           </container>
+         <circulo>
+         <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="90px" height="90px">
+         <circle cx="45" cy="45" r="40" stroke-linecap="round"/>
+         </svg>  
+         </circulo>           
+         <min id="minT">1</min>
+         <max id="maxT">12</max>
+           </div>
+          </dayweather>
+        </objs>
+      </fundo>
+    </background>
+</main>

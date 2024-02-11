@@ -1,0 +1,223 @@
+main, background, div {
+    padding: 0px;
+    margin: 0px;
+}
+ html{
+  background-color:black;
+}
+*{
+  padding:0 ;
+  margin: 0;
+}
+
+ background{
+  display:flex;
+  position:absolute;
+  overflow:hidden;
+  align-items: center;
+  justify-content: center;
+  height:100vh;
+  width:100vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.bgimg{
+  position:absolute;
+  height:auto;
+  width:120%;
+  transition:width 1s;
+}
+
+/* background:hover .bgimg{
+  width:140% !important;
+    
+}
+ */
+clock, time, date, dayweather{
+  margin:0px;
+  z-index:10;
+}
+
+.parallax{
+  display:flex;
+  flex-direction:column;
+  position:absolute;
+  align-items: center;
+  justify-content: start;
+  height:100%;
+  width:100%;
+/*   background-color:lightblue; */
+  opacity:1;
+  perspective: 1000px;
+}
+
+shadow{
+  position:absolute;
+  top:5%;
+  border-radius:5%;
+  height:300px;
+  width:400px;
+  filter: blur(50px); 
+  background-color:rgba(40, 40, 40, 0.5);
+/*   backdrop-filter: blur(50px); */
+  z-index:0;
+}
+
+.rotate-layer{
+  display:flex;
+  top:15%;
+  position:absolute;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction:column;
+  height:300px;
+  width:600px;
+  perspective: 1000px;
+  transform:rotateY(0deg);
+}
+
+
+
+
+
+clock{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  height:100px;
+  width:200px;
+  color:white;
+  font-size:100px;
+  font-family: 'Moirai One', system-ui;
+/*   border:1px solid lightblue; */
+}
+hour,minu{
+  position:relative;
+  color:white;
+  font-size:100px;
+  font-family: 'Moirai One', system-ui;
+}
+
+date{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  height:100px;
+  width:200px;
+}
+
+text-date{
+  position:absolute;
+  top:8%;
+  color:white;
+  font-size:80px;
+  font-family: 'Libre Baskerville', serif;
+}
+
+dayweather{
+  display:flex;
+  flex-direction: line;
+  align-items:center;
+  justify-content:center;
+  height:100px;
+  width:200px;
+}
+
+.day{
+  position:relative;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  height:100px;
+  width:100px;
+}
+
+calendar{
+  position:absolute;
+  text-align: center;
+  font-size:40px;
+  font-family: 'Libre Baskerville', serif;
+  color:white;
+}
+
+.weather{
+  position:relative;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  height:100px;
+  width:100px;
+}
+
+actual{
+  position:absolute;
+  top:25%;
+  font-size:35px;
+  font-family: 'Libre Baskerville', serif;
+  color:white;
+}
+
+container{
+  position:absolute;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  height:100%;
+  width:100%;
+  transform:rotate(0deg);
+  z-index:11;
+}
+
+bolinha{
+  position:absolute;
+  height:10px;
+  width:10px;
+  border-radius:50%;
+  background-color:white;
+  top:5%;
+  transform-origin:0 55px;
+  z-index:11;
+}
+circulo{
+  display:flex;
+  position:absolute;
+  align-items:center;
+  justify-content:center;
+}
+circle{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  stroke-width:6px;
+  opacity:0.8;
+  position:absolute;
+  fill:none;
+  stroke:cornflowerblue;
+  stroke-dasharray:250;
+  stroke-dashoffset:100;
+  transform:rotate(162deg);
+  transform-origin:50% 50%;
+}
+
+ min{
+  position: absolute;
+  bottom:13%;
+  left:15%;
+  font-size:15px;
+  font-family: 'Libre Baskerville', serif;
+  color:white;
+}
+
+max{
+  position: absolute;
+  bottom:13%;
+  right:15%;
+  font-size:15px;
+  font-family: 'Libre Baskerville', serif;
+  color:white;
+}
+
+text-date, hour, minu, months, day, actual, circulo, min, max{
+  filter: drop-shadow(0 0 3rem black);
+}

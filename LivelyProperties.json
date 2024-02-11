@@ -1,0 +1,27 @@
+{
+    "city": {
+      "text" : "City",
+      "type" : "textbox",
+      "value" : ""
+     },
+   
+
+   
+    "language": {
+      "type": "dropdown",
+      "value": 0,
+      "text": "Language",
+      "items": [
+        "en",
+        "pt"
+      ]
+    },
+
+    "imgSelect": {
+    "type": "folderDropdown",
+    "value": "mountain-surrounded-with-fog-1772973.jpg",
+    "text": "Image",
+    "filter": "*.jpg|*.png",
+    "folder": "wallpapers"
+    }
+  }
