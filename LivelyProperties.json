@@ -2,7 +2,7 @@
     "city": {
       "text" : "City",
       "type" : "textbox",
-      "value" : ""
+      "value" : "london"
      },
    
 
@@ -19,7 +19,7 @@
 
     "imgSelect": {
     "type": "folderDropdown",
-    "value": "mountain-surrounded-with-fog-1772973.jpg",
+    "value": "artist-yh_wu---landscape.jpg",
     "text": "Image",
     "filter": "*.jpg|*.png",
     "folder": "wallpapers"
